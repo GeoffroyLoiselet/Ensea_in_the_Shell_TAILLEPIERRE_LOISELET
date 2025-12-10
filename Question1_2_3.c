@@ -25,6 +25,10 @@ void print(const char* msg) {
 void readCommand(char* buffer, ssize_t* cmd) {
     *cmd = read(STDIN_FILENO, buffer, BUFFER_SIZE - 1);
     buffer[command] = '\0';
+    if (*cmd == 0) {          
+    	buffer[0] = '\0';     // signaler EOF
+    return;
+    }
     if (buffer[command - 1] == '\n') {
         buffer[command - 1] = '\0';
     }
@@ -38,7 +42,7 @@ int main() {
         print(MSG_Prompt);
         readCommand(buffer, &command);
 
-        if (strcmp(buffer, "exit") == 0) {
+        if ((strcmp(buffer, "exit") == 0) || (command == 0)) {
             print(MSG_Exit);
             break;
         }
