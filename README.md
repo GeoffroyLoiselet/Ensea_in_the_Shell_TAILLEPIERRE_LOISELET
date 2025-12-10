@@ -1,11 +1,6 @@
 # Ensea_in_the_Shell_TAILLEPIERRE_LOISELET
 TP Programmation système ENSEA 2G2 TD1 TP1, étudiants TAILLEPIERRE et LOISELET
 
-Image Question 1 : 
-<img width="674" height="75" alt="image" src="https://github.com/user-attachments/assets/ff7b8c64-ae4a-44cc-83b9-0333147f8dd8" />
+Image Question 1,2 et 3 : 
 
-Image Question 2 :
-<img width="673" height="181" alt="image" src="https://github.com/user-attachments/assets/1c14de28-3fa1-4479-b1fb-899c779fb198" />
-
-Image Question 3 : 
-<img width="670" height="234" alt="image" src="https://github.com/user-attachments/assets/0102bb68-9b9d-4528-9896-88df5b47f4fe" />
+<img width="673" height="268" alt="image" src="https://github.com/user-attachments/assets/97e81349-952f-45ba-8993-a02579349abc" />
