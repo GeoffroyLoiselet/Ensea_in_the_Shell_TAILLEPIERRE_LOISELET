@@ -6,3 +6,6 @@ Image Question 1 :
 
 Image Question 2 :
 <img width="673" height="181" alt="image" src="https://github.com/user-attachments/assets/1c14de28-3fa1-4479-b1fb-899c779fb198" />
+
+Image Question 3 : 
+<img width="670" height="234" alt="image" src="https://github.com/user-attachments/assets/0102bb68-9b9d-4528-9896-88df5b47f4fe" />
