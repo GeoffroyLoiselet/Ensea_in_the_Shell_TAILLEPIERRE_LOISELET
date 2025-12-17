@@ -34,7 +34,7 @@ void readCommand(char* buffer, ssize_t* cmd) {
     }
     printf("Command typed : %s\n", buffer);
 }
-
+	
 int main() {
     print(MSG_Welcome);
 
