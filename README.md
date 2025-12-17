@@ -13,6 +13,7 @@ Image Question 6 :
 
 <img width="316" height="90" alt="image" src="https://github.com/user-attachments/assets/8e2fb9aa-c1f1-4b4c-8dab-fb605e3057c3" />
 
-Image Question 7 : 
+Image Questions 7 et 8 : 
 
-<img width="693" height="125" alt="image" src="https://github.com/user-attachments/assets/af9eb1e4-2a82-4435-a79d-41e040e09324" />
+<img width="690" height="164" alt="image" src="https://github.com/user-attachments/assets/40e4187f-6488-4b7d-9615-7772091bc3ec" />
+
