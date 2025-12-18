@@ -40,7 +40,7 @@ Le temps mis par une commande est calculé par la différence de temps. En effet
 
 Voici ce que nous pouvons obtenir en console pour ces deux fonctions :
 
-<img width="1138" height="271" alt="image" src="https://github.com/user-attachments/assets/98fdf5af-64af-499b-bbe3-c44892cb4bb1" />
+<img width="366" height="87" alt="image" src="https://github.com/user-attachments/assets/fe67e0bb-a179-403a-b168-9c1729489d17" />
 
 Nous avons bien le retour de la fonction précédente ainsi que le temps mis par celle-ci.
 
@@ -50,7 +50,7 @@ Les commandes que nous pouvions faire jusqu’à présent ne pouvaient pas prend
 
 Afin de faire ceci, nous avons écrit la fonction handleArguments(). Cette fonction nous permet, dès que la commande comporte des espaces, de comprendre qu’il s’agit d’arguments et de pouvoir les obtenir afin de les utiliser. Cette fonction est appelée dans notre executeCommand() avant d’exécuter la commande pour savoir et donner les arguments entrés par l’utilisateur. Voici un exemple de ce que nous pouvons maintenant faire avec ce code :
 
-<img width="316" height="90" alt="image" src="https://github.com/user-attachments/assets/8e2fb9aa-c1f1-4b4c-8dab-fb605e3057c3" />
+<img width="599" height="208" alt="image" src="https://github.com/user-attachments/assets/525c4355-d3d7-4d05-8412-3905f72bf9d7" />
 
 Questions 7 et 8 :
 
