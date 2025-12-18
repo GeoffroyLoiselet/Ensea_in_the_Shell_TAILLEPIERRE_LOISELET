@@ -62,7 +62,7 @@ Pour les pipes, nous avons écrit la fonction executePipeCommand(), qui utilise 
 
 Il suffit maintenant, dans le main, d’exécuter la fonction pipe s’il y a un |, sinon de faire le traitement normal. Voici ce que nous pouvons maintenant faire avec ce code :
 
-<img width="690" height="164" alt="image" src="https://github.com/user-attachments/assets/40e4187f-6488-4b7d-9615-7772091bc3ec" />
+<img width="362" height="143" alt="image" src="https://github.com/user-attachments/assets/f432158d-c1eb-4b86-b298-818a9d0de73c" />
 
 Conclusion :
 
