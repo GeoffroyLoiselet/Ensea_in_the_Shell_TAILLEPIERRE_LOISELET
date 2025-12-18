@@ -1,4 +1,6 @@
-# Compte rendu - Programmation système
+Programmation système
+
+Dans ce mini projet de TP, nous nous proposons de réaliser un micro shell qui permettra de réaliser différentes tâches.
 Elèves : TAILLEPIERRE et LOISELET
 
 Question 1 : Message de bienvenue 
