@@ -1,9 +1,13 @@
 # Compte rendu - Programmation système
 Elèves : TAILLEPIERRE et LOISELET
 
-Question 1 : 
+Question 1 : Message de bienvenue 
 
 <img width="840" height="79" alt="image" src="https://github.com/user-attachments/assets/8bb53781-247f-4ead-8118-db5ca5aa4636" />
+
+Question 2 : Lecture et execution de commande
+
+<img width="841" height="146" alt="image" src="https://github.com/user-attachments/assets/56c124d7-2aef-4125-bd0e-d934a289bf23" />
 
 
 Image Questions 1,2 et 3 : 
