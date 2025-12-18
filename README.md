@@ -8,7 +8,7 @@ Question 1 :
 
 Dans un premier temps, nous allons simplement devoir afficher un message d'acceuil ainsi qu'un prompte simple.
 
-Pour ce faire, nous allons définir une fonction permettant d'afficher un message sur la console, il s'agit de la fonction display(). Lorsque nous executons le code, nous utilisons une première fois cette fonction pour afficher le message de bienvenue, puis nous rentrons dans une boucle infinie qui affiche le prompt correspondant (celui-ci dépends de plusieurs choses qui serons vues dans des questions plus tard) Grâce à cela, voici ce que nous obtenons en sortie :
+Pour ce faire, nous allons définir une fonction permettant d'afficher un message sur la console, il s'agit de la fonction display(). Lorsque nous executons le code, nous utilisons une première fois cette fonction pour afficher le message de bienvenue, puis nous rentrons dans une boucle infinie qui utilise la fonction buildPrompt() affiche le prompt correspondant (celui-ci dépends de plusieurs choses qui serons vues dans des questions plus tard) Grâce à cela, voici ce que nous obtenons en sortie :
 
 <img width="840" height="79" alt="image" src="https://github.com/user-attachments/assets/8bb53781-247f-4ead-8118-db5ca5aa4636" />
 
@@ -30,11 +30,15 @@ Question 3 :
 
 Nous voulons à présent pouvoir gérer l'arrêt du shell si l'utilisateur écrit "exit", ou qu'il appuie sur "ctrl + d". Afin de faire cela, nous écrivons la nouvelle fonction endCommand(), qui, en fonction de ce qu'il lui est donné en entrée renvoie True ou False. Nous lui définissons donc les deux conditions d'arrêt en temps que conditions, et nous ajoutons un if() juste après avoir lu ce que l'utilisateur écrit dans le main. Ce if() affiche le message de fermeture et quitte le programme si la condition est True.
 
-Voici une capture d'écran de test de plusieurs appels validant le bon fonctionnement des fonctions écrites pour les questions précédentes, ainsi que le test permettant de valider ce que nous venons d'écrire pour la gestion de la fermeture : 
+Voici une capture d'écran de test pour la gestion de la fermeture : 
 
-<img width="673" height="268" alt="image" src="https://github.com/user-attachments/assets/97e81349-952f-45ba-8993-a02579349abc" />
+<img width="843" height="115" alt="image" src="https://github.com/user-attachments/assets/c67344b3-c9b8-40a3-b313-8e680a62d348" />
 
-Image Questions 4 et 5 :
+Questions 4 et 5 :
+
+Dans cette partie, nous cherchons à programmer le code de retour de la commande précédente dans le prompt suivant, ainsi que le temps d'exécution de cette commande. C'est ici que nous définissons la fonction buildPrompt() que nous avons déjà utilisée. Cette fonction permet de définir le prompt à écrire. En effet, s'il s'agit du premier prompt, cela n'a pas de sens de donner le retour de la commande précédente ou son temps d'exécution puisque cela est faux. Cependant, si nous avions un prompt précédement, nous affichons le retour de ce dernier ainsi que le temps mis. Le temps mis par une commande est calulé par la différence de temps. En effet, dans le main, avant de lancer la commande, nous allons lancer un timer, que nous arreterons juste après avoir fini la tache. Nous avons défini les fonctions de lancement et d'arret de timer avec startTimer() et stopTimer().
+
+Voici ce que nous pouvons obtenir en console pour ces deux fonctions : 
 
 <img width="1138" height="271" alt="image" src="https://github.com/user-attachments/assets/98fdf5af-64af-499b-bbe3-c44892cb4bb1" />
 
