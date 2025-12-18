@@ -42,9 +42,17 @@ Voici ce que nous pouvons obtenir en console pour ces deux fonctions :
 
 <img width="1138" height="271" alt="image" src="https://github.com/user-attachments/assets/98fdf5af-64af-499b-bbe3-c44892cb4bb1" />
 
-Image Question 6 : 
+Nous avons bien le retour de la fonction précédente, ainsi que le temps mis par celle-ci.
+
+Question 6 : 
+
+Les commandes que nous pouvions faire jusqu'à présent ne pouvaient pas prendre d'arguments, ce qui limite beaucoup l'utilisation de notre shell. Nous cherchons maintenant à pouvoir aussi traiter les commandes avec des arguments.
+
+Afin de faire ceci, nous avons écrit la fonction handleArguments(). Cette fonction nous permet, dès que la commande comporte des espaces, de comprendre qu'il s'agit d'arguments, et de pouvoir les obtenirs afin de les utiliser. Cette fonction est appellée dans notre executeCommand() avant d'executer la commande pour savoir et donner les arguments rentrés par l'utilisateur. Voici un exemple de ce que nous pouvons maintenant faire avec ce code : 
 
 <img width="316" height="90" alt="image" src="https://github.com/user-attachments/assets/8e2fb9aa-c1f1-4b4c-8dab-fb605e3057c3" />
+
+
 
 Image Questions 7 et 8 : 
 
